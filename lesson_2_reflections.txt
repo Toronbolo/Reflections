@@ -5,3 +5,7 @@ This is created so you can attach everything you have in certain folder to git, 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Since the working directory is where you have your files in the computer, and the repository is just a folder/project of how you want to call it, that git just keep track of, we could say that the staging area is just something that you tell it, hey, i want to commit, this and this, aand this, but wait until my confirmation.
 The staging area allows you to i dont know maybe regret a commit or rethink it before you do it.
+
+How can you use the staging area to make sure you have one commit per logical change?
+If you check what is going to be commit with git status before actually running the git commit code, you can check which files are going to be commited, this way you can
+avoid commiting 2 files at once that should be commited one by one.
