@@ -9,3 +9,14 @@ The staging area allows you to i dont know maybe regret a commit or rethink it b
 How can you use the staging area to make sure you have one commit per logical change?
 If you check what is going to be commit with git status before actually running the git commit code, you can check which files are going to be commited, this way you can
 avoid commiting 2 files at once that should be commited one by one.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+One example would be, when you want to fix a bug that you know that may ruin your code, or want to create a different language version of the file.
+By creating a new branch you can be sure that your original code wont mess up and you will be able to work with confidence.
+
+How do the diagrams help you visualize the branch structure?
+If you make a diagram you will know where or when you created a new branch, allowing you to understand which code was or was not included in the different branches that you may have created.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is that the 2 different versions that were created of the file, with likely combine to make 1 file of all the change that were made and it will include all changes that were made in both files.
+It is represented the way you do, because when you merge 2 files, it becomes 1, and i think that it is the best way to represent the merging process.
