@@ -20,3 +20,14 @@ If you make a diagram you will know where or when you created a new branch, allo
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The result is that the 2 different versions that were created of the file, with likely combine to make 1 file of all the change that were made and it will include all changes that were made in both files.
 It is represented the way you do, because when you merge 2 files, it becomes 1, and i think that it is the best way to represent the merging process.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros of automatic
+Easy and fast, you dont have to deal with merging the code your self, because git do it for you.
+Cons of automatic
+You might not be quite sure of what git is merging.
+
+Pros of manual
+You know exactly what you merge, and how
+Cons of manual
+It's time consuming
