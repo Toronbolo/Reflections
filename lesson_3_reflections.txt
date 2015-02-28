@@ -30,4 +30,6 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When im working in a different part of the job im working on, or when im trying to fix a bug i may have made by mistake.
+    The benefist of using a branch is that if you fail or make a mistake by solving a problem or trying to add a new feature, you will be able to stay in your main work without affecting it.
+    The benefist of not using a branch is that if you success you wont have to do the process of merging and that would save sometime, but if you are going to do something new or make some test is way better to cover your back by making a new branch.
